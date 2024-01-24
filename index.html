@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мастерский Ремонт - Быстро. Качественно. Доступно.</title>
+
+  <link rel="stylesheet" href="./css/normalize.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <img class="header__logo" src="./img/logo.svg" alt="Логотип компании AutoService">
+      <button class="header__button">Выбрать специалиста</button>
+    </div>
+  </header>
+
+  <main>
+    <h1>AutoService - занимаемся ремонтом автомобилей, запишись на ремонт онлайн</h1>
+    <section class="hero">
+      <div class="container">
+        <h2 class="hero__title">
+          <span class="hero__title-up">Мастерский</span>
+          <span class="hero__title-down">Ремонт</span>
+        </h2>
+
+        <p class="hero_year">
+          <time datetime="2018">с 2018 года</time>
+        </p>
+
+        <p class="hero__tagline">Быстро. Качественно. Доступно.</p>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h2 class="about__title">Почему мы</h2>
+
+        <p class="about__text">С момента основания нашей автомастерской мы уделяем особое внимание каждой детали и работаем с любыми марками
+        автомобилей.</p>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <h2 class="contact__title">Заполните форму и мы свяжемся с вами</h2>
+
+        <form class="contact__form form">
+          <fieldset class="form__fieldset">
+            <legend class="form__title">Выберите нужное направление</legend>
+
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Кузовной ремонт
+            </label>
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Диагностика и ремонт двигателей
+            </label>
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Электрика и электроника
+            </label>
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Тормозные системы и ходовая часть
+            </label>
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Сварочные работы
+            </label>
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Ремонт и обслуживание системы кондиционирования
+            </label>
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Замена масел и техническое обслуживание
+            </label>
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Ремонт трансмиссии и коробки передач
+            </label>
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Шиномонтаж и балансировка
+            </label>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend class="form__title">Выберите дату и время</legend>
+
+            <div class="form__months">
+              <button class="form__btn-months">Февраль</button>
+              <button class="form__btn-months">Март</button>
+              <button class="form__btn-months">Апрель</button>
+            </div>
+
+            <div class="">
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">1
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">2
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">3
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">4
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">5
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">6
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">7
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">8
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">9
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">10
+              </label>
+            </div>
+
+            <div class="">
+              <p>Доступное время:</p>
+
+              <label class="form__item radio">
+                <input type="radio" name="time" class="radio__input">10:00
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="time" class="radio__input">14:00
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="time" class="radio__input">15:00
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="time" class="radio__input">17:00
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="time" class="radio__input">20:00
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend class="form__title">Заполните поля</legend>
+
+            <input type="text" name="name" placeholder="Имя">
+            <input type="text" name="phone" placeholder="Телефон">
+            <input type="text" name="car" placeholder="Модель и марка автомобиля">
+            <input type="text" name="year" placeholder="Год выпуска">
+
+            <p class="form__info-type">Диагностика и ремонт двигателей</p>
+            <p class="form__info-date">
+              <time datetime="2024">03.02 14:00</time>
+            </p>
+          </fieldset>
+
+          <div class="form__btn-wrapper">
+            <button class="form__btn">Назад</button>
+            <button class="form__btn">Далее</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__container"></div>
+  </footer>
+</body>
+</html>

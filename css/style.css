@@ -369,6 +369,10 @@ fieldset {
   transform: scale(1.1);
 }
 
+.form__time {
+  display: none;
+}
+
 .form__subtitle {
   margin-bottom: 16px;
   font-size: 16px;
